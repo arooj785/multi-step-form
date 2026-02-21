@@ -25,7 +25,7 @@ export const Step1 = ({ nextStep,updateData,savedData }) => {
     <form onSubmit={handleSubmit(onSubmit)} className="p-4">
       <Card className="max-w-lg mx-auto shadow-xl border-none ring-1 ring-slate-200">
         <CardHeader className="space-y-1">
-          <p className="text-sm font-medium text-blue-600 uppercase tracking-wider">Step 1/3</p>
+          <p className="text-sm font-medium text-slate-600 uppercase tracking-wider">Step 1/3</p>
           <CardTitle className="text-2xl font-bold">Personal Information</CardTitle>
           <p className="text-slate-500 text-sm">Please provide your basic details.</p>
         </CardHeader>
